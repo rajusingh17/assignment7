@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 7</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main {
+        background-color: rgb(240, 235, 235);
+        height: 10000%;
+        border: 1rem solid darkgrey;
+        margin: 5%;
+        border-radius: 0.5%;
+    }
+    
+    .nav {
+        color: white;
+        background-color: rgb(165, 154, 154);
+        display: flex;
+        flex :  1 1 auto;
+        justify-content: center;
+        padding: 3% 0;
+        margin: 2%;
+    }
+    
+    .banner {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(136, 199, 199);
+        height: 100vh;
+        margin: 2%;
+        color:  white;
+    }
+    
+    .section1{
+        margin: 2%;
+    }
+    
+    .heading{
+        color: black;
+        text-align: center;
+        padding: 2%;
+    }
+    .circle {
+        align-items: center;
+        width: 17vw;
+        height: 17vw;
+        background-color: rgb(214, 143, 57);
+        border-radius: 50%;
+    }
+    
+    .section1_circle {
+        display: flex;
+        flex : 1 1 auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .section2{
+        margin: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section2 .main1 {
+        display: flex;
+        flex-grow: 1;
+        max-width: 39.5vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .articles h2 {
+        flex-grow: 1;
+        height: 16.vh;
+        background-color: rgb(197, 107, 34);
+        flex-direction: column;
+        width: 39.5vw;
+        margin-bottom: 0.6666666vh;
+    }
+    
+    .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .center {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #th {
+        margin-bottom: 0%;
+    }
+    
+    .boxes {
+        display: flex;
+        flex: 1 1 auto;
+        margin: 2%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .box {
+        height: 50vh;
+        width: 18vw;
+        background-color: orangered;
+    }
+    
+    .footer{
+        background-color: rgb(201, 147, 189);
+        padding: 3% 0;
+        margin: 2%;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">    
+        <div class="nav">
+            <h2 class="center"> Header </h2>
+        </div>
+        <div class="banner">
+            <h2 class="center">Banner</h2>
+        </div>
+        <div class="section">
+            <div class="section1" id="">
+                <h2 class = "heading">Section - 1</h2>
+                <div class = "section1_circle">
+                    <div class="circle"><p></p></div>
+                    <div class="circle"><p></p></div>
+                    <div class="circle"><p></p></div>
+                    <div class="circle"><p></p></div>
+                </div>
+            </div>
+            <h2 class = "heading">Section2</h2>
+            <div class="section2">
+                <div class="main1">
+                    <h2 class = "center">Main Content</h2>
+                </div>
+                <div class=articles>
+                    <h2 class = "center">Article-1</h2>
+                    <h2 class = "center">Article-2</h2>
+                    <h2 class = "center"
+                    id = "th">Article-3</h2>
+                </div>
+            </div>
+            <div class="section3" id="">
+                <h2 class="heading">Section-3</h2>
+                <div class = boxes>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="section4" id="">
+                <h2 class="heading">Section-4</h2>
+                <h2 class="center footer">Footer</h2>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
